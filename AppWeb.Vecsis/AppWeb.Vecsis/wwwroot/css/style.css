@@ -441,8 +441,8 @@ a.readmore_bt {
 .header {
     font-family: poppins;
     padding: 10px 0px;
-    background: url(../images/descarga.png);
-    
+    background: url(../images/VERDEMOSAICOV2.jpg);
+ 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
@@ -1706,9 +1706,10 @@ color: #fff;
 
 /** about **/
 .about {
-     padding-top: 90px ;
-     padding-bottom: 84px ;
-     background: url(../images/aboutbg.jpg);
+     padding-top: 1px ;
+     padding-bottom:20px ;
+     /*background: url(../images/aboutbg.jpg);*/
+
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
