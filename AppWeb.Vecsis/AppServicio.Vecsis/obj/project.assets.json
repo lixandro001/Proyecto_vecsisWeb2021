@@ -11886,11 +11886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egomez\\Desktop\\Fuentes VecsisWeb\\AppWeb.Vecsis\\AppServicio.Vecsis\\AppServicio.Vecsis.csproj",
+      "projectUniqueName": "C:\\Users\\egomez\\Desktop\\Fuentes vecsis\\Proyecto_vecsisWeb2021\\AppWeb.Vecsis\\AppServicio.Vecsis\\AppServicio.Vecsis.csproj",
       "projectName": "AppServicio.Vecsis",
-      "projectPath": "C:\\Users\\egomez\\Desktop\\Fuentes VecsisWeb\\AppWeb.Vecsis\\AppServicio.Vecsis\\AppServicio.Vecsis.csproj",
+      "projectPath": "C:\\Users\\egomez\\Desktop\\Fuentes vecsis\\Proyecto_vecsisWeb2021\\AppWeb.Vecsis\\AppServicio.Vecsis\\AppServicio.Vecsis.csproj",
       "packagesPath": "C:\\Users\\egomez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egomez\\Desktop\\Fuentes VecsisWeb\\AppWeb.Vecsis\\AppServicio.Vecsis\\obj\\",
+      "outputPath": "C:\\Users\\egomez\\Desktop\\Fuentes vecsis\\Proyecto_vecsisWeb2021\\AppWeb.Vecsis\\AppServicio.Vecsis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11950,7 +11950,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

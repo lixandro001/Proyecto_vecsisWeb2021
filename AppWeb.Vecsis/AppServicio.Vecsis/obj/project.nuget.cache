@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRMUCN1Eih60HIx1A7e+kQQDWOCBrAsjyQt3nDS9c1RhrPpbLg55P1djajt5cSuXp2HU1eNiOJ20Qzsp9+XrGw==",
+  "dgSpecHash": "Zu931UMgbYD94U9zK7dDlF0ckoxNfNYLjoVXuYIq8n6mm9U753zoCz8qljuErJO7oaAfa3NMA3qUWWyNhXSOVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egomez\\Desktop\\Fuentes VecsisWeb\\AppWeb.Vecsis\\AppServicio.Vecsis\\AppServicio.Vecsis.csproj",
+  "projectFilePath": "C:\\Users\\egomez\\Desktop\\Fuentes vecsis\\Proyecto_vecsisWeb2021\\AppWeb.Vecsis\\AppServicio.Vecsis\\AppServicio.Vecsis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egomez\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\egomez\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

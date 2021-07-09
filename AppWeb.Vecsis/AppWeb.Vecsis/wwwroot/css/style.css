@@ -435,14 +435,12 @@ a.readmore_bt {
 
 
 
-
 /*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
-
 .header {
     font-family: poppins;
     padding: 10px 0px;
-    background: url(../images/VERDEMOSAICOV2.jpg);
- 
+    /*background: url(../images/VERDEMOSAICOV2.jpg);*/
+    background:#ffffff;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
@@ -1715,7 +1713,7 @@ color: #fff;
     background-repeat: repeat;
     background-size: auto;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 10% 10%;
     background-position: center center;
 }
 
@@ -1724,9 +1722,13 @@ color: #fff;
 }
 
 .about .about_box {
-     text-align: right;
-     padding-top: 130px;
+     text-align: left;
+     padding: 10px;
 }
+
+    .about .about_box p {
+        text-align: justify!important;
+    }
 
 .about .about_box h3 {
      font-weight: bold;
@@ -1761,8 +1763,33 @@ display: block
 display: block
 }
 
-.about_box_ { text-align: left;
-     padding-top: 130px;}
+
+.topheader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #8da721;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topheader-titulo {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.topheadercontainer{
+    display:flex;
+    margin-right:10px;
+}
+
+
+.about_box_ {
+    text-align: left;
+    padding-top: 130px;
+}
 
 .about_box_ p {
      font-size: 17px;
@@ -1808,12 +1835,15 @@ border-radius: 50px;
 .cross_layout {
     transform: skew(-25deg);
 }
+
 .cross_inner {
     transform: skew(25deg);
 }
+
 .testomonial_section {
     padding: 0 75px;
 }
+
 .testimonial_cont {
     background: #fff;
    
@@ -1833,22 +1863,25 @@ border-radius: 50px;
 .testimonial_cont h3 { color: #000; font-family: poppins;}
 
 
-     
-
-
-
-
-
-
 /** brand **/
-.brand {
-     padding-top: 60px;
-     border-top: #db0000 solid 6px;}
+/*.brand {
+     padding-top: 1px;*/
+    /* border-top: #db0000 solid 6px;*/
+/*}*/
+
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:100vh;
+    padding:20px;
+}
+
 
 .brand-bg {
-     background: #ebebeb;
-     padding: 90px 0px;
-     font-family: Myriad Pro;
+    background: #ebebeb;
+    padding: 20px 0px;
+    font-family: Myriad Pro;
 }
 
 .margin {
@@ -2100,9 +2133,9 @@ ul.location_icon span {
 .brand_color .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
-     font-size: 40px;
-     line-height: 45px;
-     padding: 40px 0;
+     font-size: 4px;
+     line-height: 4px;
+     padding: 4px 0;
      font-weight: 500;
      text-align: center;
 }
@@ -2162,3 +2195,67 @@ ul.location_icon span {
 .special-page .relative  {text-align:center !important; }
 
 .special-page .footer {margin-top: 90px;}
+
+
+.colorLetra{
+    color:black !important;  
+}
+
+
+.aboutprp2 {
+    display: grid;
+    grid-template-columns: 00px 1fr;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+/*.about {
+    padding-top: 1px;
+    padding-bottom: 20px;*/
+    /*background: url(../images/aboutbg.jpg);*/
+    /*background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 10% 10%;
+    background-position: center center;
+}*/
+
+
+.aboutprp{
+    display:grid;
+    grid-template-columns:400px 1fr;
+    height :100vh;
+    grid-gap:10px;     
+    padding:80px;
+}
+
+.aboutprp-secundario {
+    display: grid;
+    /* grid-template-rows:350px 1fr;*/
+    grid-template-rows: auto;
+}
+
+
+.aboutprp-objetivo{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:10px;
+}
+
+
+@media (max-width:920px) {
+    .aboutprp {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .aboutprp-objetivo{
+     display:grid;
+     grid-template-columns:1fr;
+    }
+
+
+}

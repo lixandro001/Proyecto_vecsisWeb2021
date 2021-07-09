@@ -12,9 +12,5 @@ namespace AppWeb.Vecsis.Controllers
         {
             return View();
         }
-
-
-
-
     }
 }
